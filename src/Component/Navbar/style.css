@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  margin-top: 10px;
+}
+.app-icon {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 5px;
+  justify-content: flex-end;
+  padding-right: 4rem;
+  font-size: 20px;
+  flex-grow: 1;
+}
+li {
+  margin-left: 5rem;
+  color: white;
+}
+
+a {
+  color: linear-gradient(90deg, #9b77e7, #1600a0);
+  text-decoration: none;
+  font-weight: bold;
+}

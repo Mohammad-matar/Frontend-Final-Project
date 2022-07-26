@@ -1,0 +1,16 @@
+.homeimage {
+  /* background: rgba(76, 175, 80, 0.5); */
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #00000080;
+}
+.homeimage h1 {
+  color: black;
+}

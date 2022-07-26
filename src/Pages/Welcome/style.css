@@ -1,0 +1,57 @@
+.welcome-title {
+  display: flex;
+  margin-top: 10px;
+}
+h1 {
+  background: linear-gradient(90deg, #9b77e7, #1600a0);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+}
+.welcome-container > div {
+  width: 50%;
+}
+
+.welcome-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-btn {
+  padding: 15px;
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  color: white;
+  border: 0;
+  font-size: 20px;
+  align-self: center;
+  margin-top: 2rem;
+}
+.welcome-laptop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.welcome-laptop img {
+  width: 75%;
+}
+
+@media (max-width: 900px) {
+  .welcome-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .welcome-laptop {
+    width: 100%;
+    height: auto;
+  }
+}
