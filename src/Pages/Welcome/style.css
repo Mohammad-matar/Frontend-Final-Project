@@ -2,10 +2,12 @@
   display: flex;
   margin-top: 10px;
 }
-h1 {
+
+.welcome-title h1 {
   background: linear-gradient(90deg, #9b77e7, #1600a0);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: yellow;
 }
 
 .welcome-container {
