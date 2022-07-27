@@ -2,6 +2,9 @@
   display: flex;
   margin-top: 10px;
 }
+.icon-img {
+  width: 60px;
+}
 .app-icon {
   display: flex;
 }

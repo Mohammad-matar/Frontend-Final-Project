@@ -7,15 +7,15 @@ export default function Navbar() {
     return (<>
         <div className='navbar'>
             <div className='app-icon'>
-                <img src={Group2}></img>
+                <img src={Group2} className="icon-img"></img>
                 <h1> Matarov</h1>
             </div>
-                <ul>
-                    <li><Link to="home">Home</Link></li>
-                    <li><Link to="products">Products</Link></li>
-                    <li><Link to="contact">Contact</Link></li>
-                    <li><Link to="about">About</Link></li>
-                </ul>
+            <ul>
+                <li><Link to="home">Home</Link></li>
+                <li><Link to="category">Products</Link></li>
+                <li><Link to="contact">Contact</Link></li>
+                <li><Link to="about">About</Link></li>
+            </ul>
 
         </div>
     </>
