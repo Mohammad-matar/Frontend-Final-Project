@@ -44,3 +44,19 @@
   transition-duration: 1s;
   transform: scale(1.3);
 }
+
+.slide-name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.desc-price-name {
+  display: flex;
+  flex-direction: column;
+}
+.description-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

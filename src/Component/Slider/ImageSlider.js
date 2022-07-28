@@ -29,7 +29,18 @@ export default function ImageSlider({ slides }) {
                     <div className={index === current ? 'slide active' : 'slide'}
                         key={index} >
                         {index === current && (
-                            <img src={slide.image} alt='travel image' className='image' />
+                            <>
+                                <div className='description-slider'>
+                                    <div>
+                                        <img src={slide.image} alt='travel image' className='image' />
+                                    </div>
+                                    <div className='desc-price-name'>
+                                        <p className='slide-name'> {slide.name} </p>
+                                        <p className='slide-name'>$ {slide.price}</p>
+                                    </div>
+
+                                </div>
+                            </>
                         )}
                     </div>
                 )

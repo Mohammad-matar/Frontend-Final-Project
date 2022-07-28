@@ -1,5 +1,5 @@
 import React from 'react'
-import Group2 from '../../Images/Group2.png'
+import icon from '../../Images/icon.png'
 import { Link } from 'react-router-dom'
 import './style.css'
 
@@ -7,11 +7,10 @@ export default function Navbar() {
     return (<>
         <div className='navbar'>
             <div className='app-icon'>
-                <img src={Group2} className="icon-img"></img>
-                <h1> Matarov</h1>
+                <img src={icon} className="icon-img"></img>
             </div>
             <ul>
-                <li><Link to="home">Home</Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li><Link to="category">Products</Link></li>
                 <li><Link to="contact">Contact</Link></li>
                 <li><Link to="about">About</Link></li>

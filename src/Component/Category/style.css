@@ -1,9 +1,62 @@
+/* .cat-background {
+  background-color: black;
+} */
+
 .img-title {
-  margin-left: 20%;
-  border-radius: 10px;
+  width: 100%;
+  border-radius: 50px;
+  height: 25rem;
 }
 
 .border-image {
-    padding: 30px;
-  background-color: rgb(223 217 217 / 21%);
+  padding: 30px;
+}
+
+.card-flex {
+  display: flex;
+}
+
+.cat-title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card h1 {
+  color: black;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: var(--secondary-color);
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.9;
 }
