@@ -28,8 +28,9 @@
   border-right: 0;
   border-left: 0;
   border-bottom: 2px solid var(--primary-color);
+  background-color: transparent;
 }
-.Cart-name {
+.cart-name {
   color: var(--primary-color);
 }
 .cart-buying-item {
@@ -79,4 +80,115 @@
   width: 15%;
   font-size: 22px;
   margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  .cart-inputs {
+    width: 100%;
+  }
+  .cart-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .cart-buying-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .cart-name {
+    display: flex;
+    justify-content: center;
+  }
+  .cart-desc > h2 {
+    display: flex;
+    justify-content: center;
+  }
+  .set-quatity-price {
+    display: flex;
+    justify-content: center;
+  }
+  .set-quatity-price input {
+    margin: 17px;
+    width: 60px;
+  }
+  .cart-buying-img img {
+    width: 75%;
+    margin-right: 5rem;
+  }
+  .cash-on-delivery {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1rem;
+    color: var(--primary-color);
+  }
+  .place-order-btn {
+    border: none;
+    padding: 12px;
+    color: white;
+    background: linear-gradient(
+      90deg,
+      var(--secondary-color),
+      var(--primary-color)
+    );
+    width: 26%;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 680px) {
+  .cart-buying-img img {
+    width: 75%;
+    margin-right: 5rem;
+    height: 32vh;
+  }
+  .place-order-btn {
+    border: none;
+    padding: 12px;
+    color: white;
+    background: linear-gradient(
+      90deg,
+      var(--secondary-color),
+      var(--primary-color)
+    );
+    width: 36%;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cart-buying-img img {
+    width: 75%;
+    margin-right: 5rem;
+    height: 25vh;
+  }
+  .place-order-btn {
+    border: none;
+    padding: 12px;
+    color: white;
+    background: linear-gradient(
+      90deg,
+      var(--secondary-color),
+      var(--primary-color)
+    );
+    width: 39%;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .cart-buying-img img {
+    width: 63%;
+    margin-right: 4rem;
+    height: 16vh;
+  }
+}
+@media (max-width: 800px) {
+  .cart-buying-img img {
+    width: 64%;
+    margin-right: 9rem;
+    height: 36vh;
+  }
 }

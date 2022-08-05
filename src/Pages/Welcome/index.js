@@ -7,10 +7,7 @@ import './style.css'
 export default function Welcome() {
   return (<>
     <Background />
-    <div className='welcome-title'>
-      <img src={Group2}/>
-      <h1> Matarov</h1>
-    </div>
+   
     <div className='welcome-container'>
 
       <div className='welcome-content'>
@@ -24,7 +21,7 @@ export default function Welcome() {
           typesetting, remaining essentially unchanged. It was popularised in the 1960s
           with the release of Letraset sheets containing Lorem Ipsum passages, and mor
         </p>
-        <button className='welcome-btn'> Go To The Web</button>
+        
       </div>
 
       <div className='welcome-laptop'>

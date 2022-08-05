@@ -32,10 +32,10 @@ export default function Cart() {
 
             <div className='cart-buying-item'>
                 <div className='cart-desc'>
-                    <h1 className='Cart-name'> Mohammad Matar </h1>
-                    <h2> 71-728-733 </h2>
-                    <h2> Tripoli El Mina </h2>
-                    <h2> Price : $ 100</h2>
+                    <h1 className='cart-name'> Mohammad Matar </h1>
+                    <h2 > 71-728-733 </h2>
+                    <h2 > Tripoli El Mina </h2>
+                    <h2 > Price : $ 100</h2>
                     <h3 className='set-quatity-price'>Quantity :
                         <input type='number' value='+' field='quantity' />
                     </h3>
@@ -45,7 +45,7 @@ export default function Cart() {
                     <img src={laptop} />
                 </div>
                 <div>
-                    
+
                 </div>
             </div>
         </div>

@@ -7,6 +7,7 @@ import Category from './Pages/Category';
 import Layout from './Component/Layout';
 import Products from "./Pages/Product";
 import Cart from "./Pages/Cart";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/category' element={<Category />} />
           <Route path='/products' element={<Products />} />
-          <Route path='/cart' element={<Cart/>} />
+          <Route path='/cart' element={<Cart />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path="/about" element={<Welcome />} />
         </Route>
-        <Route path="/welcome" element={<Welcome />} />
       </Routes>
     </BrowserRouter>
   );

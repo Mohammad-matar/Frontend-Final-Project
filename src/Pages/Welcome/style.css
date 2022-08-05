@@ -24,19 +24,7 @@
   flex-direction: column;
 }
 
-.welcome-btn {
-  padding: 15px;
-  background: linear-gradient(
-    90deg,
-    var(--secondary-color),
-    var(--primary-color)
-  );
-  color: white;
-  border: 0;
-  font-size: 20px;
-  align-self: center;
-  margin-top: 2rem;
-}
+
 .welcome-laptop {
   display: flex;
   align-items: center;
