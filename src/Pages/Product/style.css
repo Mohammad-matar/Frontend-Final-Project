@@ -1,0 +1,15 @@
+.product-container {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product-img-card {
+  width: 60%;
+}
+.product-price {
+  margin-bottom: 20px;
+}

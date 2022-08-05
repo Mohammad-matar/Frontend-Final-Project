@@ -8,7 +8,7 @@ export default function Welcome() {
   return (<>
     <Background />
     <div className='welcome-title'>
-      <img src={Group2}></img>
+      <img src={Group2}/>
       <h1> Matarov</h1>
     </div>
     <div className='welcome-container'>

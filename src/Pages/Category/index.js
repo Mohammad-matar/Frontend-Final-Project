@@ -29,6 +29,12 @@ export default function Category() {
                     <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
                     <button>View the Products</button>
                 </div>
+                <div class="card">
+                    <img src={smartwatch2} alt="Denim Jeans" />
+                    <h1>Tailored Jeans</h1>
+                    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+                    <button>View the Products</button>
+                </div>
 
             </div>
         </div>

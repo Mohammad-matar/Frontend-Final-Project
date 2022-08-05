@@ -1,11 +1,11 @@
 /* .cat-background {
-  background-color: black;
+  height: 100vh;
 } */
 
 .img-title {
   width: 100%;
-  border-radius: 50px;
-  height: 25rem;
+  border-radius: 30px;
+  height: 20rem;
 }
 
 .border-image {
@@ -59,4 +59,12 @@
 
 .card button:hover {
   opacity: 0.9;
+}
+
+@media (max-width: 950px) {
+  .card-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
