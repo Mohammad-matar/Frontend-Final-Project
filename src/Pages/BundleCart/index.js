@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import Footer from '../../Component/Footer';
 import { IoMdClose } from 'react-icons/io'
 import './style.css'
 
@@ -103,7 +104,7 @@ export default function BundleCart() {
                 </h4>
             </div>
 
-            <div className='cash-on-delivery'>
+            <div className='checkout-info'>
                 <h2>
                     Checkout Info
                 </h2>
@@ -137,6 +138,7 @@ export default function BundleCart() {
                     Send Order
                 </button>
             </div>
+            <Footer />
         </>
     )
 }

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios';
 import './style.css'
+import Footer from '../../Component/Footer'
 
 export default function Category() {
     const [categories, setCategories] = useState([]);
@@ -39,13 +40,14 @@ export default function Category() {
                                 <h1>{category.category_name}</h1>
                                 <br />
                                 <p>{category.description}</p>
-                                <button onClick={() => navigate(`${category._id}`) }>View the Products</button>
+                                <button onClick={() => navigate(`${category._id}`)}>View the Products</button>
                             </div>
                         )
                     })}
                 </div>
 
             </div>
+            <Footer />
         </>
 
     )

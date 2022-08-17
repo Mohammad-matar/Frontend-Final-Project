@@ -1,5 +1,6 @@
 import React from 'react'
 import Background from '../../Component/Background'
+import Footer from '../../Component/Footer'
 import './style.css'
 
 export default function Contact() {
@@ -53,7 +54,7 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-
+            <Footer />
         </>
     )
 }

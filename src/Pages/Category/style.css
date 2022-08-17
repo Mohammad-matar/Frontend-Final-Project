@@ -12,10 +12,14 @@
   padding: 30px;
 }
 
+.card {
+  background-color: white;
+  width: 300%;
+
+}
 .card-flex {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .cat-title {

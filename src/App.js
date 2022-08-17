@@ -50,10 +50,14 @@ function App() {
 
         <Route path="/footer" element={<Footer />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard/category" element={<DashboardCat />} />
-        <Route path="/dashboard/bundle" element={<BundleDB />} />
-        <Route path="/dashboard/product" element={<Productdb />} />
-        <Route path="/dashboard/order" element={<Order />} />
+
+        <Route path="dashboard">
+          <Route path="category" element={<DashboardCat />} />
+          <Route path="bundle" element={<BundleDB />} />
+          <Route path="product" element={<Productdb />} />
+          <Route path="order" element={<Order />} />
+        </Route>
+
         <Route path="/*" element={<div>not found</div>}></Route>
       </Routes>
     </BrowserRouter>

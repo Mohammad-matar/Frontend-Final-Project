@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import Background from '../../Component/Background'
+import Footer from '../../Component/Footer';
 import './style.css'
 
 export default function Products() {
@@ -57,6 +58,7 @@ export default function Products() {
                     )
                 })}
             </div>
+            <Footer />
         </>
     )
 }

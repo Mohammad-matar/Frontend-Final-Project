@@ -8,11 +8,13 @@
 }
 
 .product-img-card {
-  width: 60%;
+  width: 50%;
+  height: 130px;
 }
 .product-price {
   margin-bottom: 20px;
 }
 .card p {
   padding: 5px;
+  height: 100px;
 }
