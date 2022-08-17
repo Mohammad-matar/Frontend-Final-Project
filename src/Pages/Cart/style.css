@@ -1,8 +1,17 @@
+.sent_message {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .cart-form {
   display: flex;
 }
 .cart-inputs {
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,8 +68,8 @@
 
 .cash-on-delivery {
   display: flex;
-  justify-content: flex-end;
-  width: 85%;
+  justify-content: center;
+  /* width: 85%; */
   font-size: 1.5rem;
   color: var(--primary-color);
 }
@@ -192,3 +201,4 @@
     height: 36vh;
   }
 }
+

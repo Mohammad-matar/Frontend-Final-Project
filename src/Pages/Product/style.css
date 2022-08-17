@@ -13,3 +13,6 @@
 .product-price {
   margin-bottom: 20px;
 }
+.card p {
+  padding: 5px;
+}

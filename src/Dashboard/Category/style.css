@@ -1,0 +1,27 @@
+.dashboard-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn {
+  border: none;
+  padding: 9px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  width: 100%;
+}
+.delete-btn {
+  border: none;
+  padding: 9px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  width: 100%;
+}

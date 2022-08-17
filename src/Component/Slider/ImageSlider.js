@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import { SliderData } from './SliderData'
 import arrow2 from '../../Images/arrow2.png'
 import arrow1 from '../../Images/arrow1.png'
+import { useNavigate } from 'react-router-dom';
 
 export default function ImageSlider({ slides }) {
     const [current, setCurrent] = useState(0);
     const length = slides.length;
+    const navigate = useNavigate();
 
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1)
@@ -24,7 +25,7 @@ export default function ImageSlider({ slides }) {
         <section className='slider'>
             <img src={arrow1} className='left-arrow' onClick={prevSlide} />
             <img src={arrow2} className='right-arrow' onClick={nextSlide} />
-            {SliderData.map((slide, index) => {
+            {slides.map((slide, index) => {
                 return (
                     <div className={index === current ? 'slide active' : 'slide'}
                         key={index} >
@@ -32,7 +33,7 @@ export default function ImageSlider({ slides }) {
                             <>
                                 <div className='description-slider'>
                                     <div>
-                                        <img src={slide.image} alt='travel image' className='image' />
+                                        <img src={`http://localhost:3000/uploads/${slide.image}`} alt='travel image' className='image' onClick={() => navigate(`/bundles`)} />
                                     </div>
                                     <div className='desc-price-name'>
                                         <p className='slide-name'> {slide.name} </p>

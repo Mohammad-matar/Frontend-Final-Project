@@ -4,11 +4,14 @@
 }
 .icon-img {
   margin-left: 6rem;
-  width: 10%;
+  width: 40px;
+  height: 40px;
 }
+
 .app-icon {
   display: flex;
 }
+
 .app-icon h1 {
   color: #1600a0;
 }

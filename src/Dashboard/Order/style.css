@@ -1,0 +1,16 @@
+.add-dashboard-btn {
+  border: none;
+  padding: 9px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  width: 10%;
+}
+.add-btn-btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10rem;
+}

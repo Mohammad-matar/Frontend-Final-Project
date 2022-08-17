@@ -1,13 +1,11 @@
 import React from 'react'
 import Background from '../../Component/Background'
 import laptop from '../../Images/laptop.png'
-import Group2 from '../../Images/Group2.png'
 import './style.css'
 
 export default function Welcome() {
   return (<>
     <Background />
-   
     <div className='welcome-container'>
 
       <div className='welcome-content'>
